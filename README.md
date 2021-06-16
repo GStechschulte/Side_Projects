@@ -2,6 +2,6 @@
 
 A repository for side projects.
 
-# [Labor Market Analysis](LaborMarket)
+## [Labor Market Analysis](LaborMarket)
 
 . . .
