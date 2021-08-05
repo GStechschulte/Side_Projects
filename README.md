@@ -8,6 +8,12 @@ A repository for side projects.
 
 ### [Bayesian Networks](BayesianNetworks)
 
+### [Bayesian Neural Network](Bayesian_NeuralNet.ipynb)
+
+Using PyMC3 to implement a neural network for classification on a basic data set
+
+Why? Trial and error with PyMC3 and to learn more about neural networks. Also, as usual with Bayesian methods, we have access to uncertainty and probabilities into what the model has learned.  
+
 ### [Inference vs Prediction](Inference_vs_Prediction)
 
 A recreation of Will Kurt's [Count Bayesie](https://www.countbayesie.com/) blog post on a different data set (I also thought it would be a good opportunity to learn some of the basics behind JAX). 
