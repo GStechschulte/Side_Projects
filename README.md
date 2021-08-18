@@ -6,13 +6,21 @@ A repository for side projects.
 
 ### [Finance Manager](FinanceManager)
 
+Collection class that fetches investment data from TD Ameritrade and Coinbase APIs and then merges this data together into a dataframe. A main script is then used for running the program from the terminal. 
+
+Why? I don't want to have to sign into several platforms to calculate investments - that's annoying
+
+To Do: 
+
+[] - Basic portfolio analytics
+
 ### [Bayesian Networks](BayesianNetworks)
 
 ### [Bayesian Neural Network](Bayesian_NeuralNet.ipynb)
 
 Using PyMC3 to implement a neural network for classification on a basic data set
 
-Why? Trial and error with PyMC3 and to learn more about neural networks. Also, as usual with Bayesian methods, we have access to uncertainty and probabilities into what the model has learned.  
+Why? Experimentation with PyMC3 and to learn more about neural networks. Also, as usual with Bayesian methods, we have access to uncertainty and probabilities into what the model has predicted.   
 
 ### [Inference vs Prediction](Inference_vs_Prediction)
 
