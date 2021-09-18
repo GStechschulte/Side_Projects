@@ -30,4 +30,7 @@ Why? As the field of Data Science and ML develops, I feel their is an over empha
 
 Inference allows us to be more concerned with the properties of our model itself rather than just its predictions. The inputs, weights, and biases can offer a remedy to understand how the world works. . .in a simplified manner. _What did the model actually learn; rather than simply interpreting the output?_ _Is their uncertainty in the model's parameters?_
 
+### [Regression Discontinuity](regression-discontinuity)
+
+Uber's UberX platform, which hosts their ride-hailing service and dynamic pricing algorithm, allows economist's the ability to investigate basic economic theory's such as _supply and demand_, _consumer surplus_, _preferences_, etc. Using big data (volume, velocity, variety, and veracity), the UberX platform is an economist's dream. . .
 
