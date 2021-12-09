@@ -3,6 +3,7 @@ import numpy as np
 import re
 import glob
 import os
+import pandas as pd
 
 class html_preprocess():
 
@@ -19,18 +20,13 @@ class html_preprocess():
             with open(self.path + html, 'r') as f:
                 try:
                     self.html_clean = self.soup(f.read())
+                    df = pd.DataFrame({'content': [self.html_clean]})
+                    df.to_csv(self.path + 'html_clean/' + html[:-3] + '.csv')
                 except:
                     read_in += 1
-            
-            with open(self.path + 'html_clean/'+html, 'w') as f:
-                try:
-                    f.write(self.html_clean)
-                except:
-                    not_wrote += 1
-        
-        if read_in != 0 or not_wrote != 0:
+
+        if read_in != 0: 
             print(read_in, 'html documents not read in', '\n')
-            print(not_wrote, 'html documents not wrote out', '\n')
         else:
             print('Success :)')
 
