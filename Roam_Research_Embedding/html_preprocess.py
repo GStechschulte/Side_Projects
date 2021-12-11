@@ -34,11 +34,6 @@ class html_preprocess():
 
         souped = BeautifulSoup(html_content, 'html.parser')
         data = souped.get_text().replace('\n', '. ')
-        data = data.replace('__', '')
-        data = data.replace('|', '')
-        data = data.replace('[[]]', '')
-        data = data.replace('- via', '')
-        data = data.replace('Tags:', '')
         
         return data
 
